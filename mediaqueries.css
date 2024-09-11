@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+  .hamburgerLogo {
+    display: flex;
+  }
+  .posterContainer img {
+    height: 500px;
+  }
+  .posterDetails h1 {
+    font-size: 32px;
+  }
+  .posterDetails p {
+    display: none;
+  }
+  .netflixOriginals-h1 {
+    font-size: 20px;
+  }
+  .netflixOriginalContainer {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .posterContainer img {
+    height: 300px;
+  }
+  .netflixOriginalContainer {
+    height: 150px;
+  }
+}
